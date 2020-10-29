@@ -1,0 +1,42 @@
+name: DemosPlugin
+main: ru.LuckyStar.main.Main
+version: "1.0"
+author: LuckyStar
+description: VIP
+softdepend: [NametagEdit, Vault, Essentials, PermissionsEx, PlaceHolderAPI, ]
+commands:
+  mute:
+  unmute:
+  history:
+    aliases: [banlist]
+  mutelist:
+    aliases: [mlist]
+  tempban:
+  ban:
+  unban:
+  kick:
+  cc:
+    aliases: [clearchat, clearc]
+  fullban:
+    aliases: [fban, lobbyban]
+  fullbanip:
+    aliases: [fbanip, lobbybanip]
+  unbanfull:
+    aliases: [unbanf, funban]
+  glowing:
+    aliases: [glow]
+  console:
+    aliases: [spycmd]
+  dm:
+    aliases: [donatemoney, moneydon]
+  mybonus:
+    aliases: [bonus]
+  rgprotect:
+  broadcast:
+    aliases: [bc]
+  payday:
+  info:
+    aliases: [menu, information, joinbook]
+  rules:
+  invisible:
+    aliases: [invis]
